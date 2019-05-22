@@ -1,0 +1,53 @@
+.App {
+  width: 100%;
+  height: 100%;
+  background: rgb(253,214,222);
+  position: relative;
+}
+
+.App img {
+  width: 100%;
+}
+
+.arr {
+  position: fixed;
+  bottom: 60px;
+  right: 0;
+  width: 3rem;
+  z-index: 2;
+}
+
+.next {
+  transform: rotate(0);
+}
+
+.prev {
+  transform: rotate(180deg);
+}
+
+.arr img {
+  max-width: 100%;
+  transition: all .3s;
+}
+
+.alert-enter {
+  opacity: 0;
+}
+.alert-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.alert-exit {
+  opacity: 1;
+}
+.alert-exit-active {
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
+}
+
+.btn-begin {
+  position:absolute;
+  bottom: 20px;
+  left: 50%;
+}

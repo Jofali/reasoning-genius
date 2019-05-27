@@ -1,0 +1,34 @@
+.arr {
+  position: fixed;
+  bottom: 60px;
+  right: 0;
+  width: 3rem;
+  z-index: 2;
+}
+
+.next {
+  transform: rotate(0);
+}
+
+.prev {
+  transform: rotate(180deg);
+}
+
+.arr img {
+  max-width: 100%;
+  transition: all .3s;
+}
+
+.partSlide {
+  width: 200%;
+}
+
+.partSlide::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.partSlide-2 {
+  transform: translateX(-50%);
+}

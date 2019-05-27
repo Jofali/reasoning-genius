@@ -1,0 +1,32 @@
+.part2 {
+  width: 100%;
+  height: 100%;
+  background: url("../assets/tu2beijing.jpg") center center no-repeat;
+  background-size: 100%;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.part2 img {
+  width: 40%;
+}
+
+
+.part2-person-1 img:nth-child(1) {
+  float: left;
+}
+
+.part2-person-1 img:nth-child(2) {
+  float: right;
+}
+
+.part2-person-1::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.part2-person-2 {
+  position: relative;
+  bottom: 100px;
+}

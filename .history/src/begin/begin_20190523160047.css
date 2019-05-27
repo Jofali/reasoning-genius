@@ -1,0 +1,11 @@
+.begin {
+  width: 100%;
+  height: 100%;
+  background: rgb(59, 59, 59);
+  color: #fff;
+}
+
+.begin-content-wrap {
+  width: 100%;
+  box-sizing: border-box;
+}
